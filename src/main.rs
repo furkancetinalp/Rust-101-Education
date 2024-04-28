@@ -258,7 +258,7 @@ fn main() {
                         StatusCode:HttpStatusCode::BadRequest,
                         Message:ResultMessage::Warning { 
                             category: 1, 
-                            message: "Please type an even number".to_string() 
+                            message: "Please type an odd number".to_string() 
                         }
                     }),
                     _ => println!("{:?}",ActionResult{
